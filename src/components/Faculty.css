@@ -1,0 +1,47 @@
+.faculty-section {
+  padding: 2rem;
+}
+
+.faculty-section h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.faculty-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.faculty-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: calc(33.333% - 1rem);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.faculty-item h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.faculty-item p {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 992px) {
+  .faculty-item {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 576px) {
+  .faculty-item {
+    width: 100%;
+  }
+}

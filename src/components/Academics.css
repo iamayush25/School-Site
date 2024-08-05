@@ -1,0 +1,68 @@
+body {
+    width: 100%;
+  }
+  
+  .container-fluid {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .academics-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .academics-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .academics-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .academics-section ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .academics-section ul li strong {
+    font-weight: bold;
+  }
+  
+  .academics-section p {
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .academics-section h3 {
+      font-size: 20px;
+    }
+  
+    .academics-section ul li {
+      font-size: 14px;
+    }
+  
+    .academics-section p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .academics-section h3 {
+      font-size: 18px;
+    }
+  
+    .academics-section ul li {
+      font-size: 12px;
+    }
+  
+    .academics-section p {
+      font-size: 12px;
+    }
+  }
+  
